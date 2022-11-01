@@ -14,6 +14,10 @@ btn.onclick=function(){
     paises[sorteio][2] = contagem
     pais.textContent = `${paises[sorteio][0]}`
     info.textContent = `${paises[sorteio][1]}`
-    msg.textContent = `Esse país já apareceu por aqui ${paises[sorteio][2]} vezes`
+    if(paises[sorteio][2] ==1){
+        msg.textContent = `Esse país já apareceu por aqui ${paises[sorteio][2]} vez`
+    } else{
+        msg.textContent = `Esse país já apareceu por aqui ${paises[sorteio][2]} vezes`
+    }
 }
 
