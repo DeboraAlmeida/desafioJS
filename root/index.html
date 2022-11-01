@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,800;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/styles.css">
     <script src="src/js/script.js" async></script>
     <title>Países JS</title>
 </head>
 <body>
-    <h1>Aprenda curiosidades sobre os países</h1>
-    <div>
-        <h2 id="pais">Aqui vai entrar o nome do país</h2>
-        <p id="info">Aqui vai entrar a informação do país</p>
-        <div id="boxMensagem"></div>
+    <div class="container container-flex">
+        <h1 class="container__title">Aprenda curiosidades sobre os países</h1>
+        <div class="bg--img">
+            <div class="container-flex container__content border--basic ">
+                <h2 class="content title" id="pais">Que país é esse?</h2>
+                <p class="content text" id="info">Clique e saiba mais</p>
+                <button class="btn border--basic" id="btnMensagem">Descubra!</button>
+                <div class="content" id="boxMensagem"></div>
+            </div>
+        </div>
     </div>
-    <button id="btnMensagem">Descubra!</button>
     
 </body>
 </html>

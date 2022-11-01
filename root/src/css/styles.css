@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color:rgb(105, 15, 105);
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container__title{
+    width: 100%;
+    background-color: rgba(254, 45, 255, 0.2);
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.container__content{
+    width: 100%;
+    min-height: 90vh;
+    padding: 3rem 2rem;
+    background-color: rgba(255, 255, 255, 0.89) ;
+      
+}
+
+.bg--img{
+    width:100%;
+    background-image: url("../images/flags.jpg");
+    background-size: cover;
+}
+
+.content{
+    padding:1rem;
+    text-align: justify;
+}
+
+.title{
+    font-size: 3rem;
+    font-family: 'Lobster Two', cursive;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.2rem solid rgb(105, 15, 105);
+}
+
+.text{
+    font-size: 1.5rem;
+}
+
+.btn{
+    margin:3rem auto;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(105, 15, 105);
+    background-color: rgba(105, 15, 105, 0.2);
+    box-shadow: 1.5px 2px 2px #aaa;
+}
+
+.btn:hover{
+    background-color: rgb(105, 15, 105);
+    color: #fff;
+}
+
+.border--basic{
+    border: 1px solid rgb(254, 45, 255, 0.3);
+    border-radius: 10px;
+
+}
+
+@media(max-width: 869px){
+    
+
+    .container{
+        width: 90%;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
